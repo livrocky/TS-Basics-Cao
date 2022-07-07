@@ -13,5 +13,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     'react/jsx-filename-extension': [0],
+    'no-lone-blocks': 0,
+    'no-console': 'off',
   },
 };
